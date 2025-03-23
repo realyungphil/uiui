@@ -4,9 +4,9 @@ local settings = {
     default_accent = Color3.fromRGB(61, 100, 227); -- also stupid shit
 };
 
-local drawing = loadstring(game:HttpGet("https://git.aphixe.lol/aphixe/misc/raw/branch/main/drawing.lua"))();
-local tween = loadstring(game:HttpGet("https://git.aphixe.lol/aphixe/misc/raw/branch/main/tween.lua"))()
-local bxor = loadstring(game:HttpGet('https://git.aphixe.lol/aphixe/misc/raw/branch/main/bxor.lua'))()
+local drawing = loadstring(game:HttpGet("https://raw.githubusercontent.com/realyungphil/uiui/refs/heads/main/drawing.lua"))();
+local tween = loadstring(game:HttpGet("https://raw.githubusercontent.com/realyungphil/uiui/refs/heads/main/tween.lua"))()
+local bxor = loadstring(game:HttpGet('https://raw.githubusercontent.com/realyungphil/uiui/refs/heads/main/bxor.lua'))()
 
 
 -- // UI LIBRARY
@@ -17,10 +17,10 @@ if not isfolder(settings.folder_name) then
 end;
 
 local images = {
-    ['gradient90'] = "https://git.aphixe.lol/aphixe/misc/raw/branch/main/imgs/gradient.png";
-    ['gradient180'] = "https://git.aphixe.lol/aphixe/misc/raw/branch/main/imgs/gradient180.png";
-    ['arrow_down'] = "https://git.aphixe.lol/aphixe/misc/raw/branch/main/imgs/arrow_down.png";
-    ['arrow_up'] = "https://git.aphixe.lol/aphixe/misc/raw/branch/main/imgs/arrow_up.png";
+    ['gradient90'] = "https://raw.githubusercontent.com/realyungphil/uiui/refs/heads/main/imgs/gradient.png";
+    ['gradient180'] = "https://raw.githubusercontent.com/realyungphil/uiui/refs/heads/main/imgs/gradient180.png";
+    ['arrow_down'] = "https://raw.githubusercontent.com/realyungphil/uiui/refs/heads/main/imgs/arrow_down.png";
+    ['arrow_up'] = "https://raw.githubusercontent.com/realyungphil/uiui/refs/heads/main/imgs/arrow_up.png";
 }
 for i,v in next, images do
     if not isfile(settings.folder_name..'/assets/'..i..'.ln') then
